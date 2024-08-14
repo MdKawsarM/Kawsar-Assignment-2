@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama?styles=170364');
+
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.shape-font {
+    font-family: 'Miama', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar-section {
+    width: 1440px;
+    height: 90px;
+    background: rgb(48, 46, 46);
+    margin: 0 auto;
+    padding-top: 57px;
+}
+
+.nav-content {
+    width: 1060px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.left-content p {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.right-content {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.nav-home-btn {
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 20px 8px 20px;
+    margin: 4px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+
+/* Header section style  */
+
+.header-section {
+    width: 1440px;
+    height: 580px;
+    background: rgb(48, 46, 46);
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-left-content {
+    width: 520px;
+    height: 440px;
+    margin-top: 64px;
+    margin-left: 190px;
+}
+
+.header-left-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 90px;
+}
+
+.header-left-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 28px 0;
+}
+
+.primary-btn {
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.download-btn {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: transparent;
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 14px;
+}
+
+.header-right-content {
+    width: 349px;
+    height: 580px;
+    margin-left: 167px;
+}
+
+.header-right-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.tutorial {
+    box-sizing: border-box;
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    left: 53%;
+    top: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorial-round {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.tutorial-content h1 {
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.tutorial-content p {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.workout {
+    box-sizing: border-box;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.50);
+    position: absolute;
+    left: 76%;
+    top: 41%;
+}
+
+.workout h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 15px 0 2px 24px;
+}
+
+
+.workout p {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 24px;
+}
