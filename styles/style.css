@@ -22,7 +22,7 @@ body {
 .navbar-section {
     width: 1440px;
     height: 90px;
-    background: rgb(48, 46, 46);
+    background: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 0) 370%);
     margin: 0 auto;
     padding-top: 57px;
 }
@@ -79,7 +79,10 @@ body {
 .header-section {
     width: 1440px;
     height: 580px;
-    background: rgb(48, 46, 46);
+    background: linear-gradient(180deg,
+            rgba(19, 19, 19, 0.747) 0%,
+            rgb(30, 30, 30) 50%,
+            rgba(1, 1, 1, 0.719) 100%);
     margin: 0 auto;
 }
 
@@ -219,4 +222,132 @@ body {
     font-weight: 400;
     letter-spacing: 1px;
     margin-left: 24px;
+}
+
+/* habit section style  */
+
+.habit-section-container {
+    width: 1440px;
+    height: 1120px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.habit-section-content {
+    width: 671px;
+    height: 120px;
+    margin: 100px auto 0 auto;
+}
+
+.habit-section-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.habit-section-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.habit-section-images {
+    width: 1044px;
+    height: 274px;
+    margin: 58px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.habit-card {
+    width: 231px;
+    height: 274px;
+}
+
+.card-image {
+    width: 180px;
+    height: 180px;
+    border: 2px solid rgba(255, 255, 255, 0.411);
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.habit-card h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.habit-card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+}
+
+/* run-section  */
+
+.run-section {
+    width: 1060px;
+    height: 371px;
+    margin: 100px auto 0 auto;
+    border-radius: 18px;
+    background: rgba(185, 185, 185, 0.11);
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-section-container {
+    width: 443px;
+    height: 290px;
+    margin-left: 54px;
+    margin-top: 41px;
+
+}
+
+.run-section-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.run-section-container p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.run-image {
+    width: 366px;
+    height: 312px;
+    margin-top: 30px;
+    margin-right: 32px;
+}
+
+.run-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }
