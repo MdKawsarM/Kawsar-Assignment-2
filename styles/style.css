@@ -554,33 +554,125 @@ td {
     padding: 20px;
 }
 
-.team-image{
+.team-image {
     width: 326.67px;
     height: 272px;
     position: relative;
 }
-.team-image img{
+
+.team-image img {
     width: 100%;
     height: 100%;
     border-radius: 18px;
 }
 
-.team-image h5{
+.team-image h5 {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
     text-align: left;
 }
-.team-image p{
+
+.team-image p {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 11px;
     text-align: left;
 }
 
-.team-img-name{
+.team-img-name {
     position: absolute;
     top: 80%;
     left: 5%;
+}
+
+
+/* footer section style  */
+
+.footer-section {
+    width: 1440px;
+    height: 489px;
+    background: rgba(35, 33, 33, 0.945);
+    margin: 0 auto;
+}
+
+.footer-content {
+    width: 1059px;
+    height: 249px;
+    margin: 0 auto;
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 443px;
+    height: 176px;
+}
+
+.footer-left h1 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.footer-right {
+    display: flex;
+    width: 514px;
+    height: 249px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-left {
+    width: 40%;
+    height: 100%;
+}
+
+.get-right {
+    width: 40%;
+    height: 100%;
+}
+
+.footer-right h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.footer-right p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-section hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 1059.5px;
+    margin: 79px auto 0 auto;
+}
+
+.reserved-sign{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+    text-align: center;   
 }
