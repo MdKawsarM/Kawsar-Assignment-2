@@ -346,8 +346,161 @@ body {
     margin-right: 32px;
 }
 
-.run-image img{
+.run-image img {
     width: 100%;
     height: 100%;
     border-radius: 18px;
+}
+
+/* calculator section style  */
+
+.calculator-section {
+    width: 1440px;
+    height: 695px;
+    /* border: 2px solid red; */
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+}
+
+.bmi-calculator {
+    width: 671px;
+    height: 120px;
+    margin: 0 auto 88px auto;
+}
+
+.bmi-calculator h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.bmi-calculator p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.calculator-section-details {
+    width: 1440px;
+    height: 487px;
+    background: rgba(185, 185, 185, 0.11);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.calculate-chart {
+    width: 310px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.calculate-chart h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px;
+    text-align: left;
+}
+
+.calculate-bmi {
+    width: 577px;
+    height: 386px;
+    margin-top: 50px;
+}
+
+.calculator-section h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.calculator-section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+.input-column{
+    display: flex;
+    gap: 12px;
+}
+
+.input-box input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 282.5px;
+    height: 48px;
+    border: none;
+    margin-top: 12px;
+    
+}
+.input-box ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.select-box-column select{    
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 282.5px;
+    height: 48px;
+    border: none;
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+
+}
+.select-box select {
+    width: 577px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin-top: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.calculate-btn{
+    margin-top: 34px;
 }
