@@ -357,7 +357,6 @@ body {
 .calculator-section {
     width: 1440px;
     height: 695px;
-    /* border: 2px solid red; */
     background: rgb(34, 34, 34);
     margin: 0 auto;
 }
@@ -452,7 +451,7 @@ td {
     margin-bottom: 34px;
 }
 
-.input-column{
+.input-column {
     display: flex;
     gap: 12px;
 }
@@ -464,16 +463,18 @@ td {
     height: 48px;
     border: none;
     margin-top: 12px;
-    
+
 }
-.input-box ::placeholder{
+
+.input-box ::placeholder {
     color: rgba(255, 255, 255, 0.6);
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     padding-left: 10px;
 }
-.select-box-column select{    
+
+.select-box-column select {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     width: 282.5px;
@@ -487,6 +488,7 @@ td {
     padding-left: 10px;
 
 }
+
 .select-box select {
     width: 577px;
     height: 48px;
@@ -501,6 +503,84 @@ td {
     padding-left: 10px;
 }
 
-.calculate-btn{
+.calculate-btn {
     margin-top: 34px;
+}
+
+/* team section style  */
+
+.team-section-container {
+    width: 1440px;
+    height: 958px;
+    background: rgb(34, 34, 34);
+    margin: 0 auto;
+    padding-top: 0.5px;
+}
+
+.team-section-content {
+    width: 1060px;
+    height: 782px;
+    /* border: 2px solid red; */
+    margin: 88px auto;
+}
+
+.team-section-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.team-section-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.team-section-image-container {
+    max-width: 1060px;
+    max-height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.team-image{
+    width: 326.67px;
+    height: 272px;
+    position: relative;
+}
+.team-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.team-image h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+}
+.team-image p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 11px;
+    text-align: left;
+}
+
+.team-img-name{
+    position: absolute;
+    top: 80%;
+    left: 5%;
 }
